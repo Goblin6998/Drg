@@ -1,0 +1,72 @@
+.text{
+text-align:left;
+color: white;
+}
+
+
+body{
+text-align: center;
+ background-image: linear-gradient(to bottom left,#0f6bff,#0f6bff,#ff0f3f,#ff0f3f,#eece2f,#eece2f,#525053,#525053);
+ background-repeat: no repeat;
+ background-attachment: fixed;
+ color:white; 
+}
+
+img{
+border-radius: 80px;
+box-shadow: 5px 10px;
+background-color: grey;
+padding: 5px;
+margin: 30px;
+}
+
+img:hover{
+border-radius: 80px;
+box-shadow: 7px 12px;
+background-color: rgb(221, 34, 186);
+padding: 5px;
+margin: 30px;
+}
+
+.vid{
+opacity: 0;
+}
+
+.vid:hover{
+    opacity: 1;
+border-radius: 80px;
+box-shadow: 7px 12px purple;
+background-color: pink;
+padding: 5px;
+margin: 30px;
+}
+
+.p{
+color: white;
+}
+
+h2{
+color: white;
+}
+
+.prat{
+position: absolute;
+bottom:510px;
+left: 200px;
+}
+
+@media (max-width: 768px) {
+body{
+background-color:red;
+}
+}
+ .prat{
+opacity:0;
+ }
+
+ .prat:hover{
+opacity:1;
+ }
+ 
+/*Molly holds a good load!*/
+/*Hold your gizzards ladies a swarm is coming!*/
